@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=0 python run_xnli.py --data_dir ../dataset \
+CUDA_VISIBLE_DEVICES=0 python run_xnli.py --data_dir /work/b07u1234/b07701209/HW4_1_BERT/HW4_1_1/BERT/dataset \
     --model_type bert \
     --model_name_or_path bert-base-chinese \
     --output_dir ../output/try \
